@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="testClientSide.jnlp">
+  <information>
+    <title>testClientSide</title>
+    <vendor>Herudi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="lib/commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib/fluent-hc-4.4.jar" size="30818" download="eager" />
+    <jar href="lib/httpclient-4.4.jar" size="719304" download="eager" />
+    <jar href="lib/httpclient-cache-4.4.jar" size="158963" download="eager" />
+    <jar href="lib/httpclient-win-4.4.jar" size="17361" download="eager" />
+    <jar href="lib/httpcore-4.4.jar" size="321639" download="eager" />
+    <jar href="lib/httpmime-4.4.jar" size="40627" download="eager" />
+    <jar href="lib/jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="lib/jna-platform-4.1.0.jar" size="1464423" download="eager" />
+    <jar href="lib/json-20141113.jar" size="65050" download="eager" />
+    <jar href="lib/openjfx-dialogs-1.0.2.jar" size="148557" download="eager" />
+    <jar href="testClientSide.jar" size="47687" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="testClientSide" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="testclientside.TestClientSide"  name="testClientSide" />
+  <update check="always"/>
+</jnlp>
